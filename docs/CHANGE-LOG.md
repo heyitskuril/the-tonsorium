@@ -7,6 +7,29 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+---
+
+## [v0.2.0] — HTML Structure Complete
+
+### Summary
+Full semantic HTML skeleton built. No styles applied, structure only.
+
+### Added
+- HTML5 boilerplate: `<!DOCTYPE html>`, `lang="en"`, charset, viewport meta tags
+- Page `<title>`: *"The Tonsorium — Precision Cuts. Timeless Ritual."*
+- `<link>` for `styles/index.css`
+- Google Fonts import: Playfair Display (400, 700) + Montserrat (400, 500, 700)
+- Semantic layout: `<nav>`, `<header>`, `<main>`, all `<section>` blocks, `<footer>`
+- All section `id` attributes for anchor navigation
+- `.container` wrapper divs within each section
+- HTML comments marking section boundaries for readability
+
+### Notes
+- Deliberate choice: build the full skeleton first, style second
+- Avoids early over-styling of incomplete structure
+
+---
+
 ## [v0.1.0] — Project Initialized
 
 ### Summary

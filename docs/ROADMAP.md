@@ -15,6 +15,7 @@ The Tonsorium is built in phases — each version adds a meaningful layer of fun
 | Version | Status | Description |
 |---|---|---|
 | v0.1.0 | ✅ Complete | Project initialization |
+| v0.2.0 | ✅ Complete | Semantic HTML structure |
 
 ---
 

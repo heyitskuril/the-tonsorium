@@ -50,24 +50,24 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Base HTML Setup
 
-- [ ] Add HTML5 boilerplate
-- [ ] Add language attribute `lang="en"`
-- [ ] Add charset meta tag
-- [ ] Add viewport meta tag
-- [ ] Add title tag
-- [ ] Link CSS file
-- [ ] Import Google Fonts
+- [X] Add HTML5 boilerplate
+- [X] Add language attribute `lang="en"`
+- [X] Add charset meta tag
+- [X] Add viewport meta tag
+- [X] Add title tag
+- [X] Link CSS file
+- [X] Import Google Fonts
 
 ## Page Layout
 
-- [ ] Build `<nav>` navbar
-- [ ] Build `<header>` hero section
-- [ ] Build `<main>` wrapper
-- [ ] Build `<section>` about
-- [ ] Build `<section>` services
-- [ ] Build `<section>` gallery
-- [ ] Build `<section>` contact
-- [ ] Build `<footer>`
+- [X] Build `<nav>` navbar
+- [X] Build `<header>` hero section
+- [X] Build `<main>` wrapper
+- [X] Build `<section>` about
+- [X] Build `<section>` services
+- [X] Build `<section>` gallery
+- [X] Build `<section>` contact
+- [X] Build `<footer>`
 
 ---
 
