@@ -75,20 +75,20 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Structure
 
-- [ ] Add logo / brand text
-- [ ] Add navigation links
-- [ ] Add CTA booking button
+- [X] Add logo / brand text
+- [X] Add navigation links
+- [X] Add CTA booking button
 
 ## UX
 
-- [ ] Make navbar sticky
-- [ ] Add smooth hover states
-- [ ] Add active link style
-- [ ] Improve spacing alignment
+- [X] Make navbar sticky
+- [X] Add smooth hover states
+- [X] Add active link style
+- [X] Improve spacing alignment
 
 ## Mobile Ready
 
-- [ ] Prepare nav structure for hamburger menu
+- [X] Prepare nav structure for hamburger menu
 
 ---
 
@@ -96,17 +96,17 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Content
 
-- [ ] Add eyebrow tagline
-- [ ] Add premium headline
-- [ ] Add supporting paragraph
-- [ ] Add CTA button
-- [ ] Add secondary CTA (optional)
+- [X] Add eyebrow tagline
+- [X] Add premium headline
+- [X] Add supporting paragraph
+- [x] Add CTA button
+- [X] Add secondary CTA (optional)
 
 ## Visual
 
 - [ ] Add background image / overlay
-- [ ] Add centered or split layout
-- [ ] Add premium spacing
+- [X] Add centered or split layout
+- [X] Add premium spacing
 
 ---
 

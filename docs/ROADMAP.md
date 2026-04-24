@@ -16,6 +16,7 @@ The Tonsorium is built in phases — each version adds a meaningful layer of fun
 |---|---|---|
 | v0.1.0 | ✅ Complete | Project initialization |
 | v0.2.0 | ✅ Complete | Semantic HTML structure |
+| v0.3.0 | ✅ Complete | Phase 3&4 Styling Navbar and Hero |
 
 ---
 
@@ -30,5 +31,5 @@ This is a solo learning project. Ideas for new features:
 
 ---
 
-*The Tonsorium — Product Roadmap*
+*The Tonsorium - Product Roadmap*
 *Last updated: see changelog.md*

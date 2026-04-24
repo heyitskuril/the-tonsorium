@@ -1,0 +1,155 @@
+/*
+   Breakpoint Overrides — Mobile-First Responsive Design
+*/
+
+
+/*
+   BREAKPOINT: TABLET — max 1024px
+*/
+
+@media (max-width: 1024px) {
+
+  /* NAVBAR */
+
+  .navbar__menu {
+    gap: var(--space-sm);
+  }
+
+  .navbar__link {
+    font-size: var(--fs-xs);
+  }
+
+}
+
+
+/*
+   BREAKPOINT: MOBILE — max 768px
+*/
+
+@media (max-width: 768px) {
+
+  /*  NAVBAR */
+
+  /* Show hamburger */
+  .navbar__toggle {
+    display: flex;
+  }
+
+  /* Hide desktop CTA */
+  .navbar__cta {
+    display: none;
+  }
+
+  .navbar__menu {
+    display: none;
+
+    position: absolute;
+    top: var(--navbar-height);
+    left: 0;
+    right: 0;
+
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+
+    background: rgba(17, 17, 17, 0.97);
+    border-top: 1px solid var(--border-gold);
+    border-bottom: 1px solid var(--border-gold);
+
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+
+    padding-block: var(--space-sm);
+
+    animation: menuSlideDown var(--t-base) var(--ease-out) both;
+  }
+
+  .navbar.is-open .navbar__menu {
+    display: flex;
+  }
+
+  .navbar__item {
+    width: 100%;
+    border-bottom: 1px solid var(--border-light);
+  }
+
+  .navbar__item:last-child {
+    border-bottom: none;
+  }
+
+  .navbar__link {
+    display: block;
+    padding: var(--space-sm) var(--space-md);
+    font-size: var(--fs-sm);
+    color: var(--gray-300);
+
+    transition: color var(--t-fast), background var(--t-fast);
+  }
+
+  .navbar__link:hover,
+  .navbar__link.is-active {
+    color: var(--gold);
+    background: var(--surface-hover);
+  }
+
+  .navbar__link::after {
+    display: none;
+  }
+
+  .navbar__menu::after {
+    content: 'Book Now →';
+    display: block;
+    margin: var(--space-sm) var(--space-md) var(--space-xs);
+    padding: 1.2rem var(--space-md);
+
+    background: var(--gold);
+    color: var(--black);
+
+    font-family: var(--font-body);
+    font-size: var(--fs-xs);
+    font-weight: var(--fw-bold);
+    letter-spacing: var(--ls-widest);
+    text-transform: uppercase;
+    text-align: center;
+
+    border-radius: var(--radius);
+    cursor: pointer;
+  }
+
+}
+
+
+/*
+   BREAKPOINT: SMALL MOBILE — max 480px
+*/
+
+@media (max-width: 480px) {
+
+  /* NAVBAR */
+
+  .navbar__logo-main {
+    font-size: var(--fs-md);
+    letter-spacing: var(--ls-wide);
+  }
+
+  .navbar__logo-serif {
+    font-size: var(--fs-sm);
+  }
+
+}
+
+
+/*
+   KEYFRAMES
+ */
+
+@keyframes menuSlideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,261 @@
+/*
+   Reusable UI Components — Buttons, Cards, Navbar, etc.
+*/
+
+
+/*
+   NAVBAR COMPONENT
+*/
+
+.navbar {
+  background-color:  var(--black);
+  border-bottom: 0.2rem solid var(--border-light);
+
+  transition:
+    border-color var(--t-base),
+    box-shadow var(--t-base);
+}
+
+/* LOGO  */
+
+.navbar__logo {
+  display: flex;
+  align-items: baseline;
+  gap: var(--ls-widest);
+
+  transition: opacity var(--t-fast);
+}
+
+.navbar__logo-serif {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-regular);
+  letter-spacing: var(--ls-wide);
+  color: var(--white);
+}
+
+.navbar__logo-serif:hover {
+  color: var(--gray-100);
+}
+
+.navbar__logo-main {
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-wider);
+  text-transform: uppercase;
+  color: var(--gold-light);
+}
+
+.navbar__logo-main:hover {
+  color: var(--gold);
+}
+
+
+/* NAV LINKS */
+
+.navbar__item {
+  position: relative;
+}
+
+.navbar__link {
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  letter-spacing: var(--ls-wide);
+  text-transform: uppercase;
+  color: var(--gray-300);
+
+  transition: color var(--t-fast);
+}
+
+.navbar__link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 0;
+  height: 1px;
+  background: var(--gold);
+
+  transition: width var(--t-base) var(--ease-out);
+}
+
+.navbar__link:hover {
+  color: var(--white);
+}
+
+.navbar__link:hover::after,
+.navbar__link.is-active::after {
+  width: 100%;
+}
+
+.navbar__link.is-active {
+  color: var(--gold);
+}
+
+
+/* HAMBURGER TOGGLE */
+
+.navbar__toggle {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0.4rem;
+
+  transition: opacity var(--t-fast);
+}
+
+.navbar__toggle:hover {
+  opacity: 0.7;
+}
+
+.navbar__toggle-bar {
+  display: block;
+  width: 2.2rem;
+  height: 2px;
+  background: var(--white);
+  border-radius: var(--radius-full);
+
+  transform-origin: center;
+  transition:
+    transform var(--t-base) var(--ease-out),
+    opacity var(--t-fast),
+    width var(--t-base);
+}
+
+
+/* 
+   SKIP LINK (ACCESSIBILITY)
+*/
+
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: var(--space-md);
+  z-index: calc(var(--z-navbar) + 10);
+
+  padding: 1rem 2rem;
+  background: var(--gold);
+  color: var(--black);
+
+  font-family: var(--font-body);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-wide);
+  text-transform: uppercase;
+
+  border-radius: var(--radius);
+  transition: top var(--t-fast);
+}
+
+.skip-link:focus {
+  top: var(--space-sm);
+}
+
+/* BUTTON */
+.button {
+  display: inline-block;
+
+  padding: var(--space-xs) var(--space-md);
+
+  border-radius: var(--radius-full);
+
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-medium);
+
+  transition: var(--t-base);
+}
+
+.button:hover {
+  background: var(--gold-light);
+  transform: translateY(-1px);
+}
+
+.button--primary {
+  background: var(--gold);
+  color: var(--black-deep);
+  box-shadow: var(--shadow-gold);
+}
+
+.button--secondary {
+  background: var(--white);
+  color: var(--black-deep);
+    box-shadow: var(--white-pure);
+}
+
+/* HERO */
+
+.hero {
+  background-color: var(--black);
+  font-family: var(--font-body);
+  font-size: var(--fs-md);
+  color: var(--white);
+  letter-spacing: var(--ls-wider);
+}
+
+.hero__eyebrow {
+  font-size: var(--fs-lg);
+}
+
+.hero__title {
+  font-family: var(--font-heading);
+  font-size: var(--fs-4xl);
+}
+
+.hero__title-eyecatch, .hero__title-eyecatch2 {
+  color: var(--gold);
+  font-weight: var(--fw-bold);
+}
+
+.hero__subtitle {
+  margin-bottom: var(--space-md);
+}
+
+/* ABOUT */
+.about {}
+.about__text {}
+.about__tagline {}
+.about__title {}
+.about__description {}
+.about__image {}
+
+/* SERVICES */
+.services {}
+.services__tagline {}
+.services__title {}
+
+/* CARD */
+.card {}
+.card--service {}
+.card__title {}
+.card__description {}
+.card__price {}
+
+/* GALLERY */
+.gallery {}
+.gallery__tagline {}
+.gallery__title {}
+.gallery__item {}
+
+/* CONTACT */
+.contact {}
+.contact__tagline {}
+.contact__title {}
+.contact__info {}
+.contact__hours {}
+.contact__heading {}
+.contact__text {}
+.contact__map {}
+
+/* FOOTER */
+.footer {}
+.footer__brand {}
+.footer__title {}
+.footer__tagline {}
+.footer__links {}
+.footer__link {}
+.footer__social {}
+.footer__copyright {}

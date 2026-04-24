@@ -7,9 +7,37 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [v0.3.0] - Phase 3 & 4 Styling Navabar and Hero section
+
+### Summary
+Basic styling and layout structure for Navbar and Hero Section, also prepare nav structure for hamburger menu (future will be implementation with JavaScript)
+
+### Added
+
+#### Navbar :
+
+- Add logo / brand text: The Tonsorium
+- Add navigation links: About, Services, Gallery, Contact
+- Add CTA booking button: with gold background
+- Make navbar sticky: done
+- Add smooth hover states: done
+- Add active link style: done
+- Improve spacing alignment: done
+- Prepare nav structure for hamburger menu
+
+#### Hero :
+
+- Add eyebrow tagline
+- Add premium headline
+- Add supporting paragraph
+- Add CTA button
+- Add secondary CTA (optional)
+- Add centered or split layout
+- Add premium spacing
+
 ---
 
-## [v0.2.0] — HTML Structure Complete
+## [v0.2.0] - HTML Structure Complete
 
 ### Summary
 Full semantic HTML skeleton built. No styles applied, structure only.
@@ -30,7 +58,7 @@ Full semantic HTML skeleton built. No styles applied, structure only.
 
 ---
 
-## [v0.1.0] — Project Initialized
+## [v0.1.0] - Project Initialized
 
 ### Summary
 Project scaffolded. All folders, core files, and documentation structure created.
@@ -56,4 +84,4 @@ Project scaffolded. All folders, core files, and documentation structure created
 
 ---
 
-*The Tonsorium — Changelog*
+*The Tonsorium - Changelog*
