@@ -7,6 +7,21 @@ Format inspired by [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
+## [v0.3.5] - Phase 3 & 4 Styling Navabar and Hero section
+
+### Summary
+Add Image background overlay and responsive any devices for hero section
+
+### Added
+
+#### Hero :
+
+- Add image background overlay
+- Adjust responsive for better visual in any devices
+
+
+---
+
 ## [v0.3.0] - Phase 3 & 4 Styling Navabar and Hero section
 
 ### Summary

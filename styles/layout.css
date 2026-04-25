@@ -57,18 +57,19 @@
   flex-shrink: 0;
 }
 
-
-
 /* HERO */
 .hero__container {
+  position: relative;
+  z-index: 2;
+
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  text-align: center;
+  justify-content: center;
 
-  gap: var(--space-md);
-  padding-top: var(--section-pad-v-xl);
   height: 100vh;
+
+  text-align: left;
+  gap: var(--space-md);
 }
 
 /* ABOUT */

@@ -104,9 +104,13 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Visual
 
-- [ ] Add background image / overlay
+- [X] Add background image / overlay
 - [X] Add centered or split layout
 - [X] Add premium spacing
+
+## Mobile Ready
+
+- [X] Responsive across devices
 
 ---
 
