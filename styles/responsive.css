@@ -1,11 +1,11 @@
 /*
-   Breakpoint Overrides — Mobile-First Responsive Design
+   Breakpoint Overrides - Mobile-First Responsive Design
+   All sections in one file, ordered by section top → bottom,
+   within each breakpoint block.
 */
 
 
-/*
-   BREAKPOINT: TABLET — max 1024px
-*/
+/* ===== BREAKPOINT: TABLET - max-width: 1024px ===== */
 
 @media (max-width: 1024px) {
 
@@ -19,7 +19,7 @@
     font-size: var(--fs-xs);
   }
 
-  /* Hero */
+  /* HERO */
 
   .hero {
     font-size: var(--fs-md);
@@ -28,36 +28,67 @@
 
   .hero__container {
     text-align: center;
-    gap: var(--space-md);
   }
 
-  /* BUTTON */
-
   .hero__actions {
-    display: flex;
     justify-content: center;
-    flex-direction: row;
-    gap: var(--space-md);
     padding: var(--space-xs) var(--space-md);
+  }
+
+  /* ABOUT */
+
+  .about__container {
+    gap: var(--space-xl);
+  }
+
+  .about__title {
+    font-size: var(--fs-2xl);
+  }
+
+  /* SERVICES */
+
+  .services__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services__title {
+    font-size: var(--fs-2xl);
+  }
+
+  /* GALLERY */
+
+  .gallery__title {
+    font-size: var(--fs-2xl);
+  }
+
+  .gallery__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* Flatten tall items 2 col grid can't support row span well */
+  .gallery__item--tall {
+    grid-row: span 1;
+  }
+
+  /* CONTACT */
+
+  .contact__title {
+    font-size: var(--fs-2xl);
   }
 
 }
 
 
-/*
-   BREAKPOINT: MOBILE — max 768px
-*/
+/* ===== BREAKPOINT: MOBILE - max-width: 768px ===== */
 
 @media (max-width: 768px) {
 
-  /*  NAVBAR */
+  /* NAVBAR */
 
-  /* Show hamburger */
   .navbar__toggle {
     display: flex;
   }
 
-  /* Hide desktop CTA */
   .navbar__cta {
     display: none;
   }
@@ -114,6 +145,7 @@
     background: var(--surface-hover);
   }
 
+  /* Underline indicator doesn't work on stacked mobile menu */
   .navbar__link::after {
     display: none;
   }
@@ -138,8 +170,7 @@
     cursor: pointer;
   }
 
-
-  /* Hero */
+  /* HERO */
 
   .hero {
     font-size: var(--fs-lg);
@@ -148,30 +179,87 @@
 
   .hero__container {
     text-align: center;
-    gap: var(--space-md);
   }
-
 
   .hero__title {
     font-size: var(--fs-3xl);
   }
 
-  /* BUTTON */
-
   .hero__actions {
-    display: flex;
     justify-content: center;
     flex-direction: row;
     gap: var(--space-md);
     padding: var(--space-xs) var(--space-sm);
   }
 
+  /* ABOUT */
+
+  .about__container {
+    grid-template-columns: 1fr;
+    gap: var(--space-lg);
+  }
+
+  .about__visual {
+    order: -1; /* Photo above text on mobile */
+  }
+
+  .about__image-frame {
+    max-width: 36rem;
+    margin-inline: auto;
+  }
+
+  .about__cta {
+    align-self: center;
+  }
+
+  /* SERVICES */
+
+  .services__header,
+  .gallery__header,
+  .contact__header {
+    margin-bottom: var(--space-lg);
+  }
+
+  .services__grid {
+    grid-template-columns: 1fr;
+    max-width: 44rem;
+    margin-inline: auto;
+  }
+
+  /* GALLERY */
+
+  .gallery__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-xs);
+  }
+
+  /* CONTACT */
+
+  .contact__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+
+  /* FOOTER */
+
+  .footer__content {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-lg);
+  }
+
+  .footer__brand {
+    grid-column: span 2;
+  }
+
+  .footer__bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+
 }
 
 
-/*
-   BREAKPOINT: SMALL MOBILE — max 480px
-*/
+/* ===== BREAKPOINT: SMALL MOBILE - max-width: 480px ===== */
 
 @media (max-width: 480px) {
 
@@ -186,39 +274,61 @@
     font-size: var(--fs-sm);
   }
 
-
-  /* Hero */
+  /* HERO */
 
   .hero {
     font-size: var(--fs-md);
     letter-spacing: var(--ls-normal);
   }
 
-  .hero__container {
-    text-align: center;
-    gap: var(--space-md);
-  }
-
-
   .hero__title {
     font-size: var(--fs-2xl);
   }
 
-  /* BUTTON */
-
   .hero__actions {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     padding: var(--space-xs) var(--space-xs);
+  }
+
+  /* ABOUT / SERVICES / GALLERY / CONTACT - shared title scale */
+
+  .about__title,
+  .services__title,
+  .gallery__title,
+  .contact__title {
+    font-size: var(--fs-2xl);
+  }
+
+  /* GALLERY */
+
+  .gallery__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery__item--tall {
+    grid-row: span 1;
+  }
+
+  /* CONTACT hours */
+
+  .hours__row {
+    padding: var(--space-xs) var(--space-sm);
+  }
+
+  /* FOOTER */
+
+  .footer__content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__brand {
+    grid-column: span 1;
   }
 
 }
 
 
-/*
-   KEYFRAMES
- */
+/* ===== KEYFRAMES ===== */
 
 @keyframes menuSlideDown {
   from {
@@ -229,5 +339,4 @@
     opacity: 1;
     transform: translateY(0);
   }
-  
 }

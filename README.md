@@ -54,8 +54,6 @@ the-tonsorium/
 │   │   ├── hero/            # Hero background images
 │   │   ├── gallery/         # Haircut + atmosphere gallery
 │   │   ├── about/           # Barber / shop photos
-│   │   ├── logos/           # Light + dark logo variants
-│   │   └── placeholders/    # Development placeholder
 │   └── icons/               # SVG icon set
 │
 ├── styles/
@@ -78,9 +76,7 @@ the-tonsorium/
     ├── accessibility.md     # A11y checklist + decisions
     ├── performance.md       # Performance strategy
     ├── roadmap.md           # Future feature roadmap
-    ├── screenshots/         # Final desktop/tablet/mobile
-    ├── progress/            # Section-by-section progress shots
-    └── wireframes/          # Layout planning sketches
+    └── screenshots/         # Final desktop/tablet/mobile
 ```
 
 ---

@@ -39,10 +39,10 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Optional Future Files
 
-- [X] Add `assets/images/`
-- [X] Add `assets/icons/`
-- [X] Add `scripts/`
-- [ ] Add `favicon.ico`
+- [x] Add `assets/images/`
+- [x] Add `assets/icons/`
+- [x] Add `scripts/`
+- [x] Add `favicon.ico`
 
 ---
 
@@ -50,24 +50,24 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Base HTML Setup
 
-- [X] Add HTML5 boilerplate
-- [X] Add language attribute `lang="en"`
-- [X] Add charset meta tag
-- [X] Add viewport meta tag
-- [X] Add title tag
-- [X] Link CSS file
-- [X] Import Google Fonts
+- [x] Add HTML5 boilerplate
+- [x] Add language attribute `lang="en"`
+- [x] Add charset meta tag
+- [x] Add viewport meta tag
+- [x] Add title tag
+- [x] Link CSS file
+- [x] Import Google Fonts
 
 ## Page Layout
 
-- [X] Build `<nav>` navbar
-- [X] Build `<header>` hero section
-- [X] Build `<main>` wrapper
-- [X] Build `<section>` about
-- [X] Build `<section>` services
-- [X] Build `<section>` gallery
-- [X] Build `<section>` contact
-- [X] Build `<footer>`
+- [x] Build `<nav>` navbar
+- [x] Build `<header>` hero section
+- [x] Build `<main>` wrapper
+- [x] Build `<section>` about
+- [x] Build `<section>` services
+- [x] Build `<section>` gallery
+- [x] Build `<section>` contact
+- [x] Build `<footer>`
 
 ---
 
@@ -75,20 +75,20 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Structure
 
-- [X] Add logo / brand text
-- [X] Add navigation links
-- [X] Add CTA booking button
+- [x] Add logo / brand text
+- [x] Add navigation links
+- [x] Add CTA booking button
 
 ## UX
 
-- [X] Make navbar sticky
-- [X] Add smooth hover states
-- [X] Add active link style
-- [X] Improve spacing alignment
+- [x] Make navbar sticky
+- [x] Add smooth hover states
+- [x] Add active link style
+- [x] Improve spacing alignment
 
 ## Mobile Ready
 
-- [X] Prepare nav structure for hamburger menu
+- [x] Prepare nav structure for hamburger menu
 
 ---
 
@@ -96,21 +96,21 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Content
 
-- [X] Add eyebrow tagline
-- [X] Add premium headline
-- [X] Add supporting paragraph
+- [x] Add eyebrow tagline
+- [x] Add premium headline
+- [x] Add supporting paragraph
 - [x] Add CTA button
-- [X] Add secondary CTA (optional)
+- [x] Add secondary CTA (optional)
 
 ## Visual
 
-- [X] Add background image / overlay
-- [X] Add centered or split layout
-- [X] Add premium spacing
+- [x] Add background image / overlay
+- [x] Add centered or split layout
+- [x] Add premium spacing
 
 ## Mobile Ready
 
-- [X] Responsive across devices
+- [x] Responsive across devices
 
 ---
 
@@ -118,15 +118,15 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Content
 
-- [ ] Add story of The Tonsorium
-- [ ] Add brand philosophy
-- [ ] Add trust-building copywriting
+- [x] Add story of The Tonsorium
+- [x] Add brand philosophy
+- [x] Add trust-building copywriting
 
 ## Layout
 
-- [ ] Two-column layout desktop
-- [ ] Stack layout mobile
-- [ ] Add optional image placeholder
+- [x] Two-column layout desktop
+- [x] Stack layout mobile
+- [x] Add optional image placeholder
 
 ---
 
@@ -134,24 +134,24 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Content
 
-- [ ] Add service title
-- [ ] Add short descriptions
-- [ ] Add pricing
+- [x] Add service title
+- [x] Add short descriptions
+- [x] Add pricing
 
 ## Suggested Services
 
-- [ ] Classic Cut
-- [ ] Beard Sculpt
-- [ ] Royal Ritual
-- [ ] Hair Wash
-- [ ] Face Treatment
-- [ ] Kids Cut
+- [x] Classic Cut
+- [x] Beard Sculpt
+- [x] Royal Ritual
+- [x] Hair Wash
+- [x] Face Treatment
+- [x] Kids Cut
 
 ## Layout
 
-- [ ] Build 3-column desktop grid
-- [ ] Build 2-column tablet grid
-- [ ] Build 1-column mobile stack
+- [x] Build 3-column desktop grid
+- [x] Build 2-column tablet grid
+- [x] Build 1-column mobile stack
 
 ---
 
@@ -159,17 +159,17 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Content
 
-- [ ] Add section intro text
-- [ ] Add 6 image placeholders
-- [ ] Add haircut showcase
-- [ ] Add interior photos
-- [ ] Add tools / atmosphere shots
+- [x] Add section intro text
+- [x] Add 6 image placeholders
+- [x] Add haircut showcase
+- [x] Add interior photos
+- [x] Add tools / atmosphere shots
 
 ## Layout
 
-- [ ] Build responsive image grid
-- [ ] Add hover zoom effect
-- [ ] Add image radius styling
+- [x] Build responsive image grid
+- [x] Add hover zoom effect
+- [x] Add image radius styling
 
 ---
 
@@ -177,16 +177,16 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Content
 
-- [ ] Add location address
-- [ ] Add phone number
-- [ ] Add WhatsApp CTA
-- [ ] Add business hours
-- [ ] Add Google Maps embed (optional)
+- [x] Add location address
+- [x] Add phone number
+- [x] Add WhatsApp CTA
+- [x] Add business hours
+- [x] Add Google Maps embed (optional)
 
 ## Layout
 
-- [ ] Two-column desktop layout
-- [ ] One-column mobile layout
+- [x] Two-column desktop layout
+- [x] One-column mobile layout
 
 ---
 
@@ -194,16 +194,16 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Content
 
-- [ ] Add brand name
-- [ ] Add short slogan
-- [ ] Add quick links
-- [ ] Add social media links
-- [ ] Add copyright
+- [x] Add brand name
+- [x] Add short slogan
+- [x] Add quick links
+- [x] Add social media links
+- [x] Add copyright
 
 ## Polish
 
-- [ ] Add subtle top border
-- [ ] Improve spacing consistency
+- [x] Add subtle top border
+- [x] Improve spacing consistency
 
 ---
 
@@ -211,26 +211,26 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Reset
 
-- [ ] Add universal reset
-- [ ] Add box-sizing reset
-- [ ] Remove default margin/padding
+- [x] Add universal reset
+- [x] Add box-sizing reset
+- [x] Remove default margin/padding
 
 ## Variables
 
-- [ ] Add color variables
-- [ ] Add font variables
-- [ ] Add spacing scale
-- [ ] Add radius values
-- [ ] Add shadow values
-- [ ] Add transition values
+- [x] Add color variables
+- [x] Add font variables
+- [x] Add spacing scale
+- [x] Add radius values
+- [x] Add shadow values
+- [x] Add transition values
 
 ## Base Styles
 
-- [ ] Style body
-- [ ] Style headings
-- [ ] Style paragraphs
-- [ ] Style links
-- [ ] Style images
+- [x] Style body
+- [x] Style headings
+- [x] Style paragraphs
+- [x] Style links
+- [x] Style images
 
 ---
 
@@ -238,18 +238,18 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Buttons
 
-- [ ] Primary gold button
-- [ ] Secondary outline button
-- [ ] Hover animation
-- [ ] Focus states
+- [x] Primary gold button
+- [x] Secondary outline button
+- [x] Hover animation
+- [x] Focus states
 - [ ] Disabled state prep
 
 ## Cards
 
-- [ ] Service cards
-- [ ] Glass / dark premium look
-- [ ] Border styling
-- [ ] Shadow depth
+- [x] Service cards
+- [x] Glass / dark premium look
+- [x] Border styling
+- [x] Shadow depth
 
 ---
 
@@ -257,15 +257,15 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Flexbox
 
-- [ ] Navbar layout
-- [ ] Button alignment
-- [ ] Footer rows
+- [x] Navbar layout
+- [x] Button alignment
+- [x] Footer rows
 
 ## Grid
 
-- [ ] Services grid
-- [ ] Gallery grid
-- [ ] Contact grid
+- [x] Services grid
+- [x] Gallery grid
+- [x] Contact grid
 
 ---
 
@@ -273,38 +273,38 @@ Create a premium, responsive, modern-classic barbershop landing page with clean 
 
 ## Breakpoints
 
-- [ ] Add 1024px tablet breakpoint
-- [ ] Add 768px mobile breakpoint
-- [ ] Add 480px small mobile breakpoint
+- [x] Add 1024px tablet breakpoint
+- [x] Add 768px mobile breakpoint
+- [x] Add 480px small mobile breakpoint
 
 ## Mobile Improvements
 
-- [ ] Reduce heading size
-- [ ] Reduce section spacing
-- [ ] Stack columns vertically
-- [ ] Improve tap targets
-- [ ] Center CTA buttons
+- [x] Reduce heading size
+- [x] Reduce section spacing
+- [x] Stack columns vertically
+- [x] Improve tap targets
+- [x] Center CTA buttons
 
 ---
 
 # Phase 14 — Accessibility
 
-- [ ] Use semantic HTML tags
-- [ ] Add alt text for images
-- [ ] Add aria-label where needed
-- [ ] Ensure keyboard navigation
-- [ ] Ensure visible focus state
-- [ ] Improve color contrast
+- [x] Use semantic HTML tags
+- [x] Add alt text for images
+- [x] Add aria-label where needed
+- [x] Ensure keyboard navigation
+- [x] Ensure visible focus state
+- [ ] Improve color contrast — verify with tool
 
 ---
 
 # Phase 15 — SEO Basics
 
-- [ ] Add meta description
-- [ ] Add relevant title tag
-- [ ] Add Open Graph tags
+- [x] Add meta description
+- [x] Add relevant title tag
+- [x] Add Open Graph tags
 - [ ] Add favicon
-- [ ] Use heading hierarchy correctly
+- [x] Use heading hierarchy correctly
 
 ---
 

@@ -17,6 +17,9 @@ The Tonsorium is built in phases — each version adds a meaningful layer of fun
 | v0.1.0 | ✅ Complete | Project initialization |
 | v0.2.0 | ✅ Complete | Semantic HTML structure |
 | v0.3.0 | ✅ Complete | Phase 3&4 Styling Navbar and Hero |
+| v0.3.5 | ✅ Complete | background image overlay and responsive hero section |
+| v0.4.0 | ✅ Complete | Phase 5 - 13  | Full visual styling for all sections |
+| v0.4.5 | ✅ Complete | CSS Audit & Bug Fixes | Full audit of all CSS files against HTML structure |
 
 ---
 

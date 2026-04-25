@@ -1,6 +1,9 @@
 /*
    CSS Reset / Normalize Base
- */
+   Pure structural reset only.
+   Design tokens (colors, fonts, line-heights) live
+   in variables.css and components.css - not here.
+*/
 
 
 /* 1. BOX SIZING RESET */
@@ -34,7 +37,6 @@ html {
 
 body {
   min-height: 100vh;
-  line-height: 1.6;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

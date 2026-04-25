@@ -1,9 +1,11 @@
 /*
-   Layout Systems — Containers, Grids, Structural Rules
+   Layout Systems - Containers, Grids, Structural Rules
+   Only positional / structural rules here.
+   Colors, typography, effects components.css
 */
 
 
-/* GLOBAL CONTAINER */
+/* ===== GLOBAL CONTAINERS ===== */
 
 .navbar__container,
 .hero__container,
@@ -11,8 +13,7 @@
 .services__container,
 .gallery__container,
 .contact__container,
-.footer__container
- {
+.footer__container {
   width: var(--container-width);
   max-width: var(--container-max);
 
@@ -20,12 +21,11 @@
 }
 
 
-/* NAVBAR LAYOUT */
+/* ===== NAVBAR LAYOUT ===== */
 
 .navbar {
   position: sticky;
   top: 0;
-  padding-top: 0;
   z-index: var(--z-navbar);
 }
 
@@ -44,7 +44,7 @@
   gap: var(--space-md);
 }
 
-/* Hamburger hidden on desktop */
+/* Hamburger — hidden on desktop */
 .navbar__toggle {
   display: none;
   flex-direction: column;
@@ -57,7 +57,9 @@
   flex-shrink: 0;
 }
 
-/* HERO */
+
+/* ===== HERO LAYOUT ===== */
+
 .hero__container {
   position: relative;
   z-index: 2;
@@ -72,16 +74,201 @@
   gap: var(--space-md);
 }
 
-/* ABOUT */
 
-/* SERVICES */
-.services__grid {}
+/* ===== ABOUT LAYOUT ===== */
 
-/* GALLERY */
-.gallery__grid {}
+.about__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: var(--space-2xl);
+}
 
-/* CONTACT */
-.contact__grid {}
+.about__text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
 
-/* FOOTER */
-.footer__content {}
+.about__visual {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__image-frame {
+  position: relative;
+  width: 100%;
+  max-width: 46rem;
+}
+
+/* ===== SERVICES LAYOUT ===== */
+
+.services__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.services__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-md);
+}
+
+.services__cta {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-xl);
+}
+
+/* Card inner layout */
+.card--service {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+}
+
+.card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+
+/* ===== GALLERY LAYOUT ===== */
+
+.gallery__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.gallery__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: var(--space-sm);
+}
+
+.gallery__item--tall {
+  grid-row: span 2;
+}
+
+.gallery__item {
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+}
+
+.gallery__cta {
+  display: flex;
+  justify-content: center;
+  margin-top: var(--space-xl);
+}
+
+
+/* ===== CONTACT LAYOUT ===== */
+
+.contact__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.contact__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-2xl);
+  align-items: start;
+}
+
+.contact__info {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-lg);
+}
+
+.contact__item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.contact__hours {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-md);
+}
+
+.hours__list {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.hours__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* WhatsApp button — layout portion */
+.button--whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-xs);
+  align-self: flex-start;
+}
+
+
+/* ===== FOOTER LAYOUT ===== */
+
+.footer__content {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  align-items: start;
+  gap: var(--space-2xl);
+}
+
+.footer__brand {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.footer__social-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+}
+
+.footer__bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-md);
+  flex-wrap: wrap;
+}

@@ -5,7 +5,7 @@
 
 :root {
 
-/* COLORS — PRIMARY PALETTE */
+/* COLORS PRIMARY PALETTE */
 
   --black:              #1A1A1A;
   --black-deep:         #111111;
@@ -19,7 +19,7 @@
   --white-pure:         #FFFFFF;
 
 
-/* COLORS — NEUTRAL SCALE */
+/* COLORS NEUTRAL SCALE */
 
   --gray-100:           #e7e7e7;
   --gray-300:           #bdbdbd;
@@ -28,7 +28,7 @@
   --gray-900:           #1e1e1e;
 
 
-/* COLORS — SEMANTIC TOKENS */
+/* COLORS SEMANTIC TOKENS */
 
   --overlay-dark:       rgba(0, 0, 0, 0.65);
   --overlay-deep:       rgba(0, 0, 0, 0.80);
@@ -44,13 +44,13 @@
   --gold-glow:          rgba(212, 175, 55, 0.12);
 
 
-/* TYPOGRAPHY — FONT FAMILIES */
+/* TYPOGRAPHY FONT FAMILIES */
 
   --font-heading:       'Playfair Display', Georgia, serif;
   --font-body:          'Montserrat', 'Helvetica Neue', sans-serif;
 
 
-/* TYPOGRAPHY — FONT SIZES */
+/* TYPOGRAPHY FONT SIZES */
 
   --fs-xs:              1.2rem;   /* 12px */
   --fs-sm:              1.4rem;   /* 14px */
@@ -63,14 +63,14 @@
   --fs-5xl:             7.8rem;   /* 78px */
 
 
-/* TYPOGRAPHY — FONT WEIGHTS */
+/* TYPOGRAPHY FONT WEIGHTS */
 
   --fw-regular:         400;
   --fw-medium:          500;
   --fw-bold:            700;
 
 
-/* TYPOGRAPHY — LINE HEIGHTS */
+/* TYPOGRAPHY LINE HEIGHTS */
 
   --lh-tight:           1.15;
   --lh-heading:         1.25;
@@ -78,7 +78,7 @@
   --lh-relaxed:         1.8;
 
 
-/* TYPOGRAPHY — LETTER SPACING */
+/* TYPOGRAPHY LETTER SPACING */
 
   --ls-tight:           -0.02em;
   --ls-normal:          0;
